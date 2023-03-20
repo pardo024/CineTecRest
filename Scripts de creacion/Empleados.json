@@ -1,0 +1,129 @@
+db.empleados.insertOne({
+    "_id":"001",    
+    "nombre":"Juan Perez",
+    "direccion":"Av. Reforma #123, Ciudad de Mexico",
+    "telefono":"555-1234",
+    "rfc":"PERJ810101ABC",
+    "nss":"123456789",
+    "puesto":"Conserje",
+    "fechaNacimiento":"1981-01-01",
+    "fechaIngreso":"2020-01-01",
+    "sexo":"Masculino"
+})
+
+db.empleados.insertOne({
+    "_id":"002",    
+    "nombre":"Maria Garcia",
+    "direccion":"Calle 2 #456, Guadalajara",
+    "telefono":"333-5678",
+    "rfc":"GARM840202XYZ",
+    "nss":"987654321",
+    "puesto":"Contadora",
+    "fechaNacimiento":"1984-02-02",
+    "fechaIngreso":"2019-06-01",
+    "sexo":"Femenino"
+})
+
+db.empleados.insertOne({
+    "_id":"003",    
+    "nombre":"Pedro Lopez",
+    "direccion":"Calle 3 #789, Monterrey",
+    "telefono":"222-9012",
+    "rfc":"LOPP850303ABC",
+    "nss":"123456789",
+    "puesto":"Gerente",
+    "fechaNacimiento":"1985-03-03",
+    "fechaIngreso":"2018-12-01",
+    "sexo":"Masculino"
+})
+
+db.empleados.insertOne({
+    "_id":"004",    
+    "nombre":"Luisa Martinez",
+    "direccion":"Calle 4 #1011, Puebla",
+    "telefono":"111-3456",
+    "rfc":"MART860404XYZ",
+    "nss":"987654321",
+    "puesto":"Administradora",
+    "fechaNacimiento":"1986-04-04",
+    "fechaIngreso":"2018-06-01",
+    "sexo":"Femenino"
+})
+
+db.empleados.insertOne({
+    "_id":"005",    
+    "nombre":"Jose Ramirez",
+    "direccion":"Calle 5 #1213, Tijuana",
+    "telefono":"444-7890",
+    "rfc":"RAMJ870505ABC",
+    "nss":"123456789",
+    "puesto":"Vendedor",
+    "fechaNacimiento":"1987-05-05",
+    "fechaIngreso":"2017-12-01",
+    "sexo":"Masculino"
+})
+
+db.empleados.insertOne({
+    "_id":"006",    
+    "nombre":"Maria Hernandez",
+    "direccion":"Calle 6 #1415, Cancun",
+    "telefono":"666-1234",
+    "rfc":"HERM880606XYZ",
+    "nss":"987654321",
+    "puesto":"Vendedor",
+    "fechaNacimiento":"1988-06-06",
+    "fechaIngreso":"2017-06-01",
+    "sexo":"Femenino"
+})
+
+db.empleados.insertOne({
+    "_id":"007",    
+    "nombre":"Pedro Garcia",
+    "direccion":"Calle 7 #1617, Guadalajara",
+    "telefono":"333-5678",
+    "rfc":"GARP890707ABC",
+    "nss":"123456789",
+    "puesto":"Vendedor",
+    "fechaNacimiento":"1989-07-07",
+    "fechaIngreso":"2016-12-01",
+    "sexo":"Masculino"
+})
+
+db.empleados.insertOne({
+    "_id":"008",    
+    "nombre":"Luisa Lopez",
+    "direccion":"Calle 8 #1819, Monterrey",
+    "telefono":"222-9012",
+    "rfc":"LOPL900808XYZ",
+    "nss":"987654321",
+    "puesto":"Vendedor",
+    "fechaNacimiento":"1990-08-08",
+    "fechaIngreso":"2016-06-01",
+    "sexo":"Femenino"
+})
+
+db.empleados.insertOne({
+    "_id":"009",    
+    "nombre":"Jose Perez",
+    "direccion":"Calle 9 #2021, Puebla",
+    "telefono":"111-3456",
+    "rfc":"PERJ910909ABC",
+    "nss":"123456789",
+    "puesto":"Vendedor",
+    "fechaNacimiento":"1991-09-09",
+    "fechaIngreso":"2015-12-01",
+    "sexo":"Masculino"
+})
+
+db.empleados.insertOne({
+    "_id":"010",    
+    "nombre":"Maria Ramirez",
+    "direccion":"Calle 10 #2223, Tijuana",
+    "telefono":"444-7890",
+    "rfc":"RAMM920101XYZ",
+    "nss":"987654321",
+    "puesto":"Vendedor",
+    "fechaNacimiento":"1992-01-01",
+    "fechaIngreso":"2015-06-01",
+    "sexo":"Femenino"
+})

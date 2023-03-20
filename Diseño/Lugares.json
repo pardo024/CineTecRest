@@ -1,0 +1,23 @@
+{
+    "_id": "ObjectId",
+    "sala": {
+    "idSala": "Number",
+    "numSala": "Number",
+    "capacidad": "Number",
+    "tipo": "String",
+    "lugares": [
+    {
+    "fila": "String",
+    "numeroAsiento": "Number",
+    "tipoAsiento": "String",
+    "estaDisponible": "Boolean"
+    },
+    {
+        "fila": "String",
+        "numeroAsiento": "Number",
+        "tipoAsiento": "String",
+        "estaDisponible": "Boolean"
+        }
+    ]
+    }
+    }

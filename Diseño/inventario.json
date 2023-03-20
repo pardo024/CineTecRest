@@ -1,0 +1,12 @@
+{
+    "_id": "ObjectId",
+    "nombre": "String",
+    "descripcion": "String",
+    "categoria": "String",
+    "presentacion": "Number",
+    "precio": "Number",
+    "fecha_vencimiento": "Date",
+    "imagen_url": "String",
+    "disponibilidad": "Number"
+  }
+  

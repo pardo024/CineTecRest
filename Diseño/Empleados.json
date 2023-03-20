@@ -1,0 +1,12 @@
+{
+"idEmpleado":"String",    
+"nombre":"String",
+"direccion":"String",
+"telefono":"String",
+"rfc":"String",
+"nss":"String",
+"puesto":"String",
+"fechaNacimiento":"String",
+"fechaIngreso":"String",
+"sexo":"String"
+}

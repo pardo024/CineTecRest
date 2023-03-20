@@ -1,0 +1,59 @@
+db.ventadulceria.insertOne({
+  "_id": 1,
+  "fecha_venta": ISODate("2023-03-19T21:14:00Z"),
+  "id_empleado": "1234",
+  "nombre_empleado": "Juan Pérez",
+  "productos_vendidos": [
+    {
+      "producto_id": 1,
+      "cantidad": 2,
+      "precio_unitario": 80.00
+    },
+    {
+      "producto_id":2,
+      "cantidad": 3,
+      "precio_unitario": 35.50
+    }
+  ],
+  "total_venta": 231.00
+})
+
+db.ventadulceria.insertOne({
+  "_id": 2,
+  "fecha_venta": ISODate("2023-03-19T21:14:00Z"),
+  "id_empleado": "1234",
+  "nombre_empleado": "Juan Pérez",
+  "productos_vendidos": [
+    {
+      "producto_id": 1,
+      "cantidad": 4,
+      "precio_unitario": 160.00
+    },
+    {
+      "producto_id":2,
+      "cantidad": 4,
+      "precio_unitario": 142.00
+    }
+  ],
+  "total_venta": 302.00
+})
+
+db.ventadulceria.insertOne({
+  "_id": 3,
+  "fecha_venta": ISODate("2023-03-19T21:14:00Z"),
+  "id_empleado": "1234",
+  "nombre_empleado": "Juan Pérez",
+  "productos_vendidos": [
+    {
+      "producto_id": 1,
+      "cantidad": 2,
+      "precio_unitario": 80.00
+    },
+    {
+      "producto_id":2,
+      "cantidad": 3,
+      "precio_unitario": 35.50
+    }
+  ],
+  "total_venta": 231.00
+})

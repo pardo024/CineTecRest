@@ -1,0 +1,20 @@
+{
+    "_id": "ObjectId",
+    "fecha_venta": "Date",
+    "id_empleado": "String",
+    "nombre_empleado": "String",
+    "productos_vendidos": [
+      {
+        "producto_id": "ObjectId",
+        "cantidad": "Number",
+        "precio_unitario": "Number"
+      },
+      {
+        "producto_id": "ObjectId",
+        "cantidad": "Number",
+        "precio_unitario": "Number"
+      }
+    ],
+    "total_venta": "Number"
+  }
+  

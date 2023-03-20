@@ -1,0 +1,34 @@
+db.ventaboletos.insertOne(
+{
+    "_id": ObjectId(),
+    "idVenta": Number,
+    "id_empleado": String,
+    "nombre_empleado": String,
+    "numBoletosVendidos": Number,
+    "totalVenta": Double,
+    "fechaVenta": String,
+    "funcion": {
+        "idFuncion": Number,
+        "horaInicio": String,
+        "horaFin": String,
+        "fecha": String,
+        "pelicula_id": ObjectId,
+        "pelicula_nombre": String,
+        "sala": {
+            "idSala": Number,
+            "numSala": Number,
+            "capacidad": Number,
+            "tipo": String
+        }
+    },
+    "Lugares": [
+        {
+            "$ref": "String",
+            "$id": "ObjectId"
+        },
+        {
+            "$ref": "String",
+            "$id": "ObjectId"
+        }
+    ]
+})

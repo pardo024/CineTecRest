@@ -1,0 +1,11 @@
+{
+    "_id": ObjectId(),
+    "idPelicula": Number,
+    "nombre": String,
+    "genero": String,
+    "clasificacion": String,
+    "duracion": Number,
+    "nacionalidad": String,
+    "reparto": String,
+    "sinopsis": String
+}

@@ -1,0 +1,41 @@
+db.ventaboletos.insertOne({
+    "_id": 1,
+    "id_empleado": "E01",
+    "nombre_empleado": "Juan Pérez",
+    "numBoletosVendidos": 4,
+    "totalVenta": 200.0,
+    "fechaVenta": "2022-03-19",
+    "funcion": {
+        "idFuncion": 1,
+        "horaInicio": "19:00",
+        "horaFin": "21:30",
+        "fecha": "2022-03-19",
+        "pelicula_id": 1,
+        "sala_id": 1
+    },
+    "Lugares": [
+        "numeroAsiento": 1, "numeroAsiento": 2,"numeroAsiento": 3,"numeroAsiento": 4
+    ]
+})
+
+db.ventaboletos.insertOne(
+{
+    "_id": 2,
+    "id_empleado": "E02",
+    "nombre_empleado": "María González",
+    "numBoletosVendidos": 3,
+    "totalVenta": 150.0,
+    "fechaVenta": "2022-03-20",
+    "funcion": {
+        "idFuncion": 2,
+        "horaInicio": "17:30",
+        "horaFin": "19:45",
+        "fecha": "2022-03-20",
+        "pelicula_id": 2,
+        "sala_id": 1
+    },
+    "Lugares": [
+        "numeroAsiento": 1, "numeroAsiento": 2,"numeroAsiento": 3
+    ]
+})
+

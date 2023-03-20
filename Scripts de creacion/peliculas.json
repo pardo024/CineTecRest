@@ -1,0 +1,46 @@
+db.peliculas.insertOne({
+    "_id": 1,
+    "nombre": "The Shawshank Redemption",
+    "genero": "Drama",
+    "clasificacion": "R",
+    "duracion": 142,
+    "nacionalidad": "Estados Unidos",
+    "reparto": "Tim Robbins, Morgan Freeman",
+    "sinopsis": "Un banquero es condenado a dos cadenas perpetuas consecutivas por un crimen que no cometió."
+  })
+
+db.peliculas.insertOne({
+    "_id": 2,
+    "nombre": "The Godfather",
+    "genero": "Drama",
+    "clasificacion": "R",
+    "duracion": 175,
+    "nacionalidad": "Estados Unidos",
+    "reparto": "Marlon Brando, Al Pacino",
+    "sinopsis": "El padrino de una familia de la mafia italiana se enfrenta a un conflicto entre su familia y la mafia siciliana."
+  })
+
+db.peliculas.insertOne({
+    "_id": 3,
+    "nombre": "The Godfather: Part II",
+    "genero": "Drama",
+    "clasificacion": "R",
+    "duracion": 202,
+    "nacionalidad": "Estados Unidos",
+    "reparto": "Al Pacino, Robert De Niro",
+    "sinopsis": "El padrino de una familia de la mafia italiana se enfrenta a un conflicto entre su familia y la mafia siciliana."
+  })
+
+db.peliculas.insertOne({
+    "_id": 4,
+    "nombre": "The Dark Knight",
+    "genero": "Acción",
+    "clasificacion": "PG-13",
+    "duracion": 152,
+    "nacionalidad": "Estados Unidos",
+    "reparto": "Christian Bale, Heath Ledger",
+    "sinopsis": "El Caballero Oscuro debe enfrentarse a un criminal que pretende destruir la ciudad de Gotham."
+  })
+
+
+

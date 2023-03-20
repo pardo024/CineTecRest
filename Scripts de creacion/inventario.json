@@ -1,0 +1,89 @@
+db.inventario.insertOne({
+  "_id": 1,
+  "nombre": "Palomitas de maíz",
+  "descripcion": "Palomitas de maíz saladas y calientes para disfrutar en el cine",
+  "categoria": "Snacks",
+  "presentacion": 1,
+  "precio": 80.00,
+  "fecha_vencimiento": "2023-12-31",
+  "disponibilidad": 100
+})
+
+db.inventario.insertOne(
+{
+  "_id": 2,
+  "nombre": "Refresco de cola",
+  "descripcion": "Refresco de cola frío y burbujeante para acompañar las palomitas",
+  "categoria": "Bebidas",
+  "presentacion": 0.5,
+  "precio": 35.50,
+  "fecha_vencimiento": ISODate("2023-09-30T00:00:00Z"),
+  "disponibilidad": 75
+}
+)
+
+db.inventario.insertOne(
+{
+  "_id": 3,
+  "nombre": "Chicles de menta",
+  "descripcion": "Chicles de menta fresca para después del cine",
+  "categoria": "Dulces",
+  "presentacion": 0.05,
+  "precio": 5.99,
+  "fecha_vencimiento": ISODate("2024-06-30T00:00:00Z"),
+  "disponibilidad": 200
+}
+)
+
+db.inventario.insertOne(
+{
+  "_id": 4,
+  "nombre": "Chocolate con leche",
+  "descripcion": "Barra de chocolate con leche cremoso para los amantes del chocolate",
+  "categoria": "Dulces",
+  "presentacion": 0.1,
+  "precio": 25.99,
+  "fecha_vencimiento": ISODate("2023-11-30T00:00:00Z"),
+  "disponibilidad": 150
+}
+)
+
+db.inventario.insertOne(
+{
+  "_id": 5,
+  "nombre": "Galletas de chocolate",
+  "descripcion": "Galletas de chocolate para acompañar el chocolate",
+  "categoria": "Dulces",
+  "presentacion": 0.1,
+  "precio": 20.99,
+  "fecha_vencimiento": ISODate("2023-11-30T00:00:00Z"),
+  "disponibilidad": 150
+}
+)
+
+db.inventario.insertOne(
+{
+  "_id":6,
+  "nombre": "Gomitas de ositos",
+  "descripcion": "Gomitas de ositos dulces y suaves para compartir con amigos",
+  "categoria": "Dulces",
+  "presentacion": 0.25,
+  "precio": 12.50,
+  "fecha_vencimiento": ISODate("2024-03-31T00:00:00Z"),
+  "disponibilidad": 100
+}
+)
+
+db.inventario.insertOne(
+{
+  "_id": 7,
+  "nombre": "Gomitas de frutas",
+  "descripcion": "Gomitas de frutas dulces y suaves para compartir con amigos",
+  "categoria": "Dulces",
+  "presentacion": 0.25,
+  "precio": 12.50,
+  "fecha_vencimiento": ISODate("2024-03-31T00:00:00Z"),
+  "disponibilidad": 100
+}
+)
+

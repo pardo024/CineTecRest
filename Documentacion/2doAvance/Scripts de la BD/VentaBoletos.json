@@ -14,8 +14,9 @@ db.ventaboletos.insertOne({
         "sala_id": 1
     },
     "Lugares": [
-        "numeroAsiento": 1, "numeroAsiento": 2,"numeroAsiento": 3,"numeroAsiento": 4
-    ]
+    {"numeroAsiento": 1}, {"numeroAsiento": 2}, {"numeroAsiento": 3}, {"numeroAsiento": 4}
+]
+
 })
 
 db.ventaboletos.insertOne(
@@ -34,8 +35,9 @@ db.ventaboletos.insertOne(
         "pelicula_id": 2,
         "sala_id": 1
     },
-    "Lugares": [
-        "numeroAsiento": 1, "numeroAsiento": 2,"numeroAsiento": 3
-    ]
+  "Lugares": [
+    {"numeroAsiento": 1}, {"numeroAsiento": 2}, {"numeroAsiento": 3}
+]
+
 })
 

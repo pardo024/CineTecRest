@@ -17,7 +17,7 @@ db.inventario.insertOne(
   "categoria": "Bebidas",
   "presentacion": 0.5,
   "precio": 35.50,
-  "fecha_vencimiento": ISODate("2023-09-30T00:00:00Z"),
+  "fecha_vencimiento": ISODate("2023-09-30"),
   "disponibilidad": 75
 }
 )
@@ -30,7 +30,7 @@ db.inventario.insertOne(
   "categoria": "Dulces",
   "presentacion": 0.05,
   "precio": 5.99,
-  "fecha_vencimiento": ISODate("2024-06-30T00:00:00Z"),
+  "fecha_vencimiento": ISODate("2024-06-30"),
   "disponibilidad": 200
 }
 )
@@ -43,7 +43,7 @@ db.inventario.insertOne(
   "categoria": "Dulces",
   "presentacion": 0.1,
   "precio": 25.99,
-  "fecha_vencimiento": ISODate("2023-11-30T00:00:00Z"),
+  "fecha_vencimiento": ISODate("2023-11-30"),
   "disponibilidad": 150
 }
 )
@@ -56,7 +56,7 @@ db.inventario.insertOne(
   "categoria": "Dulces",
   "presentacion": 0.1,
   "precio": 20.99,
-  "fecha_vencimiento": ISODate("2023-11-30T00:00:00Z"),
+  "fecha_vencimiento": ISODate("2023-11-30"),
   "disponibilidad": 150
 }
 )
@@ -69,7 +69,7 @@ db.inventario.insertOne(
   "categoria": "Dulces",
   "presentacion": 0.25,
   "precio": 12.50,
-  "fecha_vencimiento": ISODate("2024-03-31T00:00:00Z"),
+  "fecha_vencimiento": ISODate("2024-03-31"),
   "disponibilidad": 100
 }
 )
@@ -82,7 +82,7 @@ db.inventario.insertOne(
   "categoria": "Dulces",
   "presentacion": 0.25,
   "precio": 12.50,
-  "fecha_vencimiento": ISODate("2024-03-31T00:00:00Z"),
+  "fecha_vencimiento": ISODate("2024-03-31"),
   "disponibilidad": 100
 }
 )

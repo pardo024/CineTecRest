@@ -1,4 +1,4 @@
-db.lugares.insertOne{
+db.lugares.insertOne({
     "_id": 1,
     "sala": {
         "idSala": 1,
@@ -9,45 +9,45 @@ db.lugares.insertOne{
             { "fila": "A", "numeroAsiento": 1, "tipoAsiento": "Normal", "estaDisponible": true },
             { "fila": "A", "numeroAsiento": 2, "tipoAsiento": "Normal", "estaDisponible": true },
             { "fila": "A", "numeroAsiento": 3, "tipoAsiento": "Normal", "estaDisponible": true },
-            { "fila": "A", "numeroAsiento": 4, "tipoAsiento": "Normal", "estaDisponible": true }.
-            { "fila": "A", "numeroAsiento": 5, "tipoAsiento": "Normal", "estaDisponible": true }.
-            { "fila": "A", "numeroAsiento": 6, "tipoAsiento": "Normal", "estaDisponible": true }.
-            { "fila": "A", "numeroAsiento": 7, "tipoAsiento": "Normal", "estaDisponible": true }.
-            { "fila": "A", "numeroAsiento": 8, "tipoAsiento": "Normal", "estaDisponible": true }.
-            { "fila": "A", "numeroAsiento": 9, "tipoAsiento": "Normal", "estaDisponible": true }.
-            { "fila": "A", "numeroAsiento": 10, "tipoAsiento": "Normal", "estaDisponible": true }.
-            { "fila": "A", "numeroAsiento": 11, "tipoAsiento": "Normal", "estaDisponible": true }.
-            { "fila": "A", "numeroAsiento": 12, "tipoAsiento": "Normal", "estaDisponible": true }.
-            { "fila": "A", "numeroAsiento": 13, "tipoAsiento": "Normal", "estaDisponible": true }.
-            { "fila": "A", "numeroAsiento": 14, "tipoAsiento": "Normal", "estaDisponible": true }.
-            { "fila": "A", "numeroAsiento": 15, "tipoAsiento": "Normal", "estaDisponible": true }.
-            { "fila": "A", "numeroAsiento": 16, "tipoAsiento": "Normal", "estaDisponible": true }.
-            { "fila": "A", "numeroAsiento": 17, "tipoAsiento": "Normal", "estaDisponible": true }.
-            { "fila": "A", "numeroAsiento": 18, "tipoAsiento": "Normal", "estaDisponible": true }.
-            { "fila": "A", "numeroAsiento": 19, "tipoAsiento": "Normal", "estaDisponible": true }.
-            { "fila": "A", "numeroAsiento": 20, "tipoAsiento": "Normal", "estaDisponible": true }.
-            { "fila": "A", "numeroAsiento": 21, "tipoAsiento": "Normal", "estaDisponible": true }.
-            { "fila": "A", "numeroAsiento": 22, "tipoAsiento": "Normal", "estaDisponible": true }.
-            { "fila": "A", "numeroAsiento": 23, "tipoAsiento": "Normal", "estaDisponible": true }.
-            { "fila": "A", "numeroAsiento": 24, "tipoAsiento": "Normal", "estaDisponible": true }.
-            { "fila": "A", "numeroAsiento": 25, "tipoAsiento": "Normal", "estaDisponible": true }.
-            { "fila": "A", "numeroAsiento": 26, "tipoAsiento": "Normal", "estaDisponible": true }.
-            { "fila": "A", "numeroAsiento": 27, "tipoAsiento": "Normal", "estaDisponible": true }.
-            { "fila": "A", "numeroAsiento": 28, "tipoAsiento": "Normal", "estaDisponible": true }.
-            { "fila": "A", "numeroAsiento": 29, "tipoAsiento": "Normal", "estaDisponible": true }.
-            { "fila": "A", "numeroAsiento": 30, "tipoAsiento": "Normal", "estaDisponible": true }.
-            { "fila": "A", "numeroAsiento": 31, "tipoAsiento": "Normal", "estaDisponible": true }.
-            { "fila": "A", "numeroAsiento": 32, "tipoAsiento": "Normal", "estaDisponible": true }.
-            { "fila": "A", "numeroAsiento": 33, "tipoAsiento": "Normal", "estaDisponible": true }.
-            { "fila": "A", "numeroAsiento": 34, "tipoAsiento": "Normal", "estaDisponible": true }.
-            { "fila": "A", "numeroAsiento": 35, "tipoAsiento": "Normal", "estaDisponible": true }.
-            { "fila": "A", "numeroAsiento": 36, "tipoAsiento": "Normal", "estaDisponible": true }.
-            { "fila": "A", "numeroAsiento": 37, "tipoAsiento": "Normal", "estaDisponible": true }.
-            { "fila": "A", "numeroAsiento": 38, "tipoAsiento": "Normal", "estaDisponible": true }.
-            { "fila": "A", "numeroAsiento": 39, "tipoAsiento": "Normal", "estaDisponible": true }.
-            { "fila": "A", "numeroAsiento": 40, "tipoAsiento": "Normal", "estaDisponible": true }.
+            { "fila": "A", "numeroAsiento": 4, "tipoAsiento": "Normal", "estaDisponible": true },
+            { "fila": "A", "numeroAsiento": 5, "tipoAsiento": "Normal", "estaDisponible": true },
+            { "fila": "A", "numeroAsiento": 6, "tipoAsiento": "Normal", "estaDisponible": true },
+            { "fila": "A", "numeroAsiento": 7, "tipoAsiento": "Normal", "estaDisponible": true },
+            { "fila": "A", "numeroAsiento": 8, "tipoAsiento": "Normal", "estaDisponible": true },
+            { "fila": "A", "numeroAsiento": 9, "tipoAsiento": "Normal", "estaDisponible": true },
+            { "fila": "A", "numeroAsiento": 10, "tipoAsiento": "Normal", "estaDisponible": true },
+            { "fila": "A", "numeroAsiento": 11, "tipoAsiento": "Normal", "estaDisponible": true },
+            { "fila": "A", "numeroAsiento": 12, "tipoAsiento": "Normal", "estaDisponible": true },
+            { "fila": "A", "numeroAsiento": 13, "tipoAsiento": "Normal", "estaDisponible": true },
+            { "fila": "A", "numeroAsiento": 14, "tipoAsiento": "Normal", "estaDisponible": true },
+            { "fila": "A", "numeroAsiento": 15, "tipoAsiento": "Normal", "estaDisponible": true },
+            { "fila": "A", "numeroAsiento": 16, "tipoAsiento": "Normal", "estaDisponible": true },
+            { "fila": "A", "numeroAsiento": 17, "tipoAsiento": "Normal", "estaDisponible": true },
+            { "fila": "A", "numeroAsiento": 18, "tipoAsiento": "Normal", "estaDisponible": true },
+            { "fila": "A", "numeroAsiento": 19, "tipoAsiento": "Normal", "estaDisponible": true },
+            { "fila": "A", "numeroAsiento": 20, "tipoAsiento": "Normal", "estaDisponible": true },
+            { "fila": "A", "numeroAsiento": 21, "tipoAsiento": "Normal", "estaDisponible": true },
+            { "fila": "A", "numeroAsiento": 22, "tipoAsiento": "Normal", "estaDisponible": true },
+            { "fila": "A", "numeroAsiento": 23, "tipoAsiento": "Normal", "estaDisponible": true },
+            { "fila": "A", "numeroAsiento": 24, "tipoAsiento": "Normal", "estaDisponible": true },
+            { "fila": "A", "numeroAsiento": 25, "tipoAsiento": "Normal", "estaDisponible": true },
+            { "fila": "A", "numeroAsiento": 26, "tipoAsiento": "Normal", "estaDisponible": true },
+            { "fila": "A", "numeroAsiento": 27, "tipoAsiento": "Normal", "estaDisponible": true },
+            { "fila": "A", "numeroAsiento": 28, "tipoAsiento": "Normal", "estaDisponible": true },
+            { "fila": "A", "numeroAsiento": 29, "tipoAsiento": "Normal", "estaDisponible": true },
+            { "fila": "A", "numeroAsiento": 30, "tipoAsiento": "Normal", "estaDisponible": true },
+            { "fila": "A", "numeroAsiento": 31, "tipoAsiento": "Normal", "estaDisponible": true },
+            { "fila": "A", "numeroAsiento": 32, "tipoAsiento": "Normal", "estaDisponible": true },
+            { "fila": "A", "numeroAsiento": 33, "tipoAsiento": "Normal", "estaDisponible": true },
+            { "fila": "A", "numeroAsiento": 34, "tipoAsiento": "Normal", "estaDisponible": true },
+            { "fila": "A", "numeroAsiento": 35, "tipoAsiento": "Normal", "estaDisponible": true },
+            { "fila": "A", "numeroAsiento": 36, "tipoAsiento": "Normal", "estaDisponible": true },
+            { "fila": "A", "numeroAsiento": 37, "tipoAsiento": "Normal", "estaDisponible": true },
+            { "fila": "A", "numeroAsiento": 38, "tipoAsiento": "Normal", "estaDisponible": true },
+            { "fila": "A", "numeroAsiento": 39, "tipoAsiento": "Normal", "estaDisponible": true },
+            { "fila": "A", "numeroAsiento": 40, "tipoAsiento": "Normal", "estaDisponible": true },
 
 
         ]
     }
-}
+})

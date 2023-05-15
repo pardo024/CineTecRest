@@ -6,10 +6,10 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 #importa tus clases
 from ventaDulces.ventaDulcesBP import ventaDulcesBP
-
+from inventario.inventarioBP import inventarioBP
 #importa los blueprints
 app.register_blueprint(ventaDulcesBP)
-
+app.register_blueprint(inventarioBP)
 db = SQLAlchemy(app)
 
 @app.route('/', methods=['GET'])

@@ -122,7 +122,7 @@ class classVentaDulces():
                             self.coleccion.update_one({"_id": int(id_venta)}, {"$set": venta})
                             
                             respuesta["estatus"] = "ok"
-                            respuesta["mensaje"] = "Se ha eliminado el producto de la venta y actualizado el total de la venta"
+                            respuesta["mensaje"] = "Se ha eliminado el producto de la venta y actualizado la venta"
                         else:
                             respuesta["estatus"] = "error"
                             respuesta["mensaje"] = "El índice de producto a eliminar no es válido"
@@ -151,3 +151,14 @@ class classVentaDulces():
             respuesta["estatus"]="error"
             respuesta["mensaje"]="No se pudo eliminar el inventario"
         return respuesta
+
+    def validarCredenciales(self, usuario, password):
+        users=self.bd.Empleados.find_one({"nombre":usuario,"password":password})
+        if users:
+            return users
+        else:
+            return None
+  
+
+
+

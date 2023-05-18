@@ -1,6 +1,7 @@
 from pymongo import MongoClient
 from bson.objectid import ObjectId
 from datetime import datetime
+from flask_httpauth import HTTPBasicAuth
 class classInventario():
     def __init__(self):
         self.cliente=MongoClient()
@@ -51,13 +52,18 @@ class classInventario():
                 "fecha_vencimiento": datos.get("fecha_vencimiento"),
                 "nombre": datos.get("nombre"),
                 "precio": datos.get("precio"),
-                "presentacion": datos.get("presentacion")}
+                "presentacion": datos.get("presentacion")
+                }
             if formato["_id"] and formato["categoria"] and formato["disponibilidad"] and formato["fecha_vencimiento"] and formato["nombre"] and formato["precio"] and formato["presentacion"]:
 
                     if datetime.strptime(formato["fecha_vencimiento"], "%Y-%m-%d") > datetime.now():
+
+                   
                         self.coleccion.insert_one(datos)
                         respuesta["estatus"]="ok"
                         respuesta["mensaje"]="Se ha registrado el producto con id "+str(formato["_id"])
+
+                           
                     else: 
                         respuesta["estatus"]="error"
                         respuesta["mensaje"]="No se pudo registrar el producto por fecha de vencimiento"
@@ -73,12 +79,15 @@ class classInventario():
         respuesta={"estatus":"","mensaje":""}
         updatedata= {
             "disponibilidad": datos.get("disponibilidad"),
-            "precio": datos.get("precio"),
+            "precio": datos.get("precio")
             }
         try:
+
+        
             self.coleccion.update_one({"_id":int(id)},{'$set':updatedata})
             respuesta["estatus"]="ok"
             respuesta["mensaje"]="Se ha actualizado el inventario"
+    
         except:
             respuesta["estatus"]="error"
             respuesta["mensaje"]="No se pudo actualizar el inventario"
@@ -87,10 +96,19 @@ class classInventario():
     def eliminar(self,id):
         respuesta={"estatus":"","mensaje":""}
         try:
-            self.coleccion.delete_one({"_id":int(id)})
-            respuesta["estatus"]="ok"
-            respuesta["mensaje"]="Se ha eliminado el inventario"
+
+                self.coleccion.delete_one({"_id":int(id)})
+                respuesta["estatus"]="ok"
+                respuesta["mensaje"]="Se ha eliminado el inventario"
+
         except:
             respuesta["estatus"]="error"
             respuesta["mensaje"]="No se pudo eliminar el inventario"
         return respuesta
+    
+    def validarCredenciales(self, usuario, password):
+        users=self.bd.Empleados.find_one({"nombre":usuario,"password":password})
+        if users:
+            return users
+        else:
+            return None

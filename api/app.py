@@ -5,10 +5,12 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://titulatec_soa:Hola.123@
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 #importa tus clases
-from ventaDulces.ventaDulcesBP import ventaDulcesBP
+from funciones.funcionesBP import funcionesBP
+from ventaBoletos.ventaBoletosBP import ventaBoletosBP
 
 #importa los blueprints
-app.register_blueprint(ventaDulcesBP)
+app.register_blueprint(funcionesBP)
+app.register_blueprint(ventaBoletosBP)
 
 db = SQLAlchemy(app)
 

@@ -1,16 +1,18 @@
 from flask import Flask, request
-from flask_sqlalchemy import SQLAlchemy
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://titulatec_soa:Hola.123@localhost/TitulaTEC_SOA'
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+
 
 #importa tus clases
 from ventaDulces.ventaDulcesBP import ventaDulcesBP
 from inventario.inventarioBP import inventarioBP
+
+from lugares.lugaresBP import lugaresBP
+from empleados.empleadosBP import empleadosBP
 #importa los blueprints
 app.register_blueprint(ventaDulcesBP)
 app.register_blueprint(inventarioBP)
-db = SQLAlchemy(app)
+app.register_blueprint(lugaresBP)
+app.register_blueprint(empleadosBP)
 
 @app.route('/', methods=['GET'])
 def init():
